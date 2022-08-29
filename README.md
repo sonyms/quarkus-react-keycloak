@@ -13,7 +13,7 @@ mvn quarkus:dev
 
 ## Packaging and running the application
 
-The application can be packaged using `./mvnw package`.
+The application can be packaged using `mvn package`.
 It produces the `quarkus-react-1.0-SNAPSHOT-runner.jar` file in the `/target` directory.
 Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/lib` directory.
 
